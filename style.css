@@ -205,28 +205,29 @@ header {
 }
 .left {
   cursor: pointer;
-  background-image: url('./assets/arrow.png');
+  background-image: url('./assets/left.png');
   background-size: cover;
   height: 3.83vw;
   width: 3.83vw;
 }
 .left:hover {
-  opacity: 0.7;
+  transition: 0.3s all;
+  transform: scale(1.1);
 }
 .right {
   cursor: pointer;
-  background-image: url('./assets/arrow.png');
+  background-image: url('./assets/rigth.png');
   background-size: cover;
   height: 3.83vw;
   width: 3.83vw;
-  transform: rotate(180deg);
+}
+.right:hover {
+  transition: 0.3s all;
+  transform: scale(1.1);
 }
 .contacts_main_container {
   margin-left: 8.72vw;
   margin-top: 1vw;
-}
-.right:hover {
-  opacity: 0.7;
 }
 .tg_main {
   background-image: url('./assets/tg.png');
@@ -553,4 +554,70 @@ footer {
   color: #FFFFFF;
   white-space: nowrap;
   width: 32.06vw ;
+}
+.btn_pressed {
+  cursor: pointer;
+  margin-top: -5vw;
+  margin-right: 14vw;
+  width: 11.98vw;
+  height: 2.78vw;
+  background: #941b1b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.05vw;
+  line-height: 1.2vw;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 1px 1px 12px 1px #941b1b;
+}
+.btn_pressed:hover {
+  transition: 0.1s all;
+  box-shadow: 1px 1px 20px 1px #941b1b;
+}
+.btn_pressed_footer {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  cursor: pointer;
+  width: 14.37vw;
+  height: 2.2vw;
+  background: #941b1b;
+  border-radius: 5px;
+  background: #941b1b;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.86vw;
+  line-height: 1.05vw;
+  text-align: center;
+  color: #FFFFFF;
+  box-shadow: 1px 1px 12px 1px #941b1b;
+}
+.btn_pressed_footer:hover {
+  transition: 0.1s all;
+  box-shadow: 1px 1px 20px 1px #941b1b;
+}
+.btn_footer_call_pressed {
+  cursor: pointer;
+  border: #5c0d83;
+  margin-top: 1vw;
+  width: 14.37vw;
+  height: 2.2vw;
+  background: #5c0d83;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.86vw;
+  line-height: 1.05vw;
+  text-align: center;
+  color: #FFFFFF;
+}
+.btn_footer_call_pressed:hover {
+  border: 1px solid #8938b1;
+  box-shadow: 1px 1px 10px 1px #8938b1;
 }
