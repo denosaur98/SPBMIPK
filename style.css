@@ -343,9 +343,161 @@ header {
   width: 63.92vw;
   color: #000000
 }
+footer {
+  display: flex;
+  margin-top: 15vw;
+}
 .footer_container {
+  display: flex;
+  justify-content: space-between;
   height: 21.71vw;
   width: 100%;
   background: #041741;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.left_sect {
+  display: flex;
+  justify-content: left;
+  margin-left: 15vw;
+}
+.first_sect {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.96vw;
+  margin-left: 2vw;
+}
+.second_sect {
+  margin-right: 20vw;
+}
+.map {
+  background-image: url('./assets/map.png');
+  background-size: cover;
+  width: 32.68vw;
+  height: 21.71vw;
+}
+.rigth_sect {
+  display: flex;
+}
+.btn_footer {
+  cursor: pointer;
+  border: #9C10E2;
+  margin-top: 1vw;
+  width: 14.37vw;
+  height: 2.2vw;
+  background: #9C10E2;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.86vw;
+  line-height: 1.05vw;
+  text-align: center;
+  color: #FFFFFF;
+}
+.contact_footer_container {
+  display: flex;
+}
+.phone_img   {
+  margin-top: 1vw;
+  background-image: url('./assets/mobile.png');
+  background-size: cover;
+  height: 1.39vw;
+  width: 1.29vw;
+}
+.mail_img {
+  margin-top: 1vw;
+  background-image: url('./assets/message.png');
+  background-size: cover;
+  height: 1.44vw;
+  width: 1.44vw;
+}
+.phone_footer {
+  margin-top: 1vw;
+  margin-left: 1vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.35vw;
+  line-height: 1.57vw;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.mail_footer {
+  margin-top: 1vw;
+  margin-left: 1vw;
+  font-family: 'Ubuntu Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.35vw;
+  line-height: 1.57vw;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+.license_link {
+  margin-top: 1vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.32vw;
+  line-height: 1.61vw;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.info_footer {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.86vw;
+  line-height: 1.2vw;
+  color: #FFFFFF;
+  width: 14.37vw;
+}
+.requisites {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.86vw;
+  line-height: 1.2vw;
+  width: 14.37vw;
+  color: #FFFFFF;
+}
+.btn_footer_sec {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  cursor: pointer;
+  width: 14.37vw;
+  height: 2.2vw;
+  background: #FF0000;
+  border-radius: 5px;
+  border: #FF0000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.86vw;
+  line-height: 1.05vw;
+  text-align: center;
+  color: #FFFFFF;
+}
+.info_footer_bottom {
+  opacity: 0.7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 2.5vw;
+  margin-left: -9vw;
+  color: #FFFFFF;
+  white-space: nowrap;
+  width: 32.06vw ;
 }
