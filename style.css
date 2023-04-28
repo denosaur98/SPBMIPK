@@ -9,6 +9,7 @@ body {
 }
 header {
   background: #F8F9FA;
+  position: sticky;
 }
 .header_container {
   display: flex;
