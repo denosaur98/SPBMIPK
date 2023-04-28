@@ -156,7 +156,6 @@ header {
   height: 26vw;
   background-image: url('./assets/phone.png');
   background-size: cover;
-  margin-bottom: 20vw;
 }
 .title_block_main { 
   font-family: 'Inter';
@@ -256,9 +255,97 @@ header {
 }
 .dots_main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 4.48vw;
   height: 0.81vw;
   background: #FFFFFF;
   border-radius: 30px;
+}
+.dot_active {
+  cursor: pointer;
+  width: 0.81vw;
+  height: 0.81vw;
+  background: #0060FF;
+  border-radius: 30px;
+}
+.dot {
+  cursor: pointer;
+  width: 0.51vw;
+  height: 0.51vw;
+  border: 2px solid #0060FF;
+  border-radius: 30px;
+}
+.title_main_sect2 {
+  margin-top: 6vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.76vw;
+  text-align: center;
+  color: #011645;
+}
+.block_info_container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.nums_info {
+  text-align: center;
+  align-items: center;
+}
+.nums {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.64vw;
+  line-height: 1.83vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FF0000;
+}
+.info {
+  white-space: nowrap;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.17vw;
+  line-height: 1.83vw;
+  text-align: center;
+  color: #041741;
+  align-items: center;
+}
+.photo_main_container {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  background-image: url('./assets/photo.png');
+  background-size: cover;
+  width: 63.78vw;
+  height: 26.93vw;
+  top: 4.02vw;
+}
+.info_main_sect2_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.77vw;
+}
+.info_main_sect2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.77vw;
+  line-height: 0.91vw;
+  text-align: justify;
+  width: 63.92vw;
+  color: #000000
+}
+.footer_container {
+  height: 21.71vw;
+  width: 100%;
+  background: #041741;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
